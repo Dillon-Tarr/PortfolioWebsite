@@ -4,6 +4,16 @@ body {
 }
 a {
   color: #00e6e6;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+hr {
+  background-color: white;
+  height: .1em;
+  margin-top: 16;
+  
 }
 
 .nav {
@@ -11,8 +21,16 @@ a {
   font-size: 1.2em;
 }
 .nav-link {
+  text-align: center;
   color: rgb(44, 221, 97);
 }
 .nav-link:hover {
   color: rgb(0, 255, 76);
+}
+
+#Dillon {
+  color: rgb(214, 185, 149);
+}
+#Dillon:hover {
+  color: rgb(243, 218, 188);
 }
