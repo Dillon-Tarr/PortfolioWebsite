@@ -1,0 +1,18 @@
+body {
+  background-color: #000000;
+  color: #dbdbdb;
+}
+a {
+  color: #00e6e6;
+}
+
+.nav {
+  justify-items: center;
+  font-size: 1.2em;
+}
+.nav-link {
+  color: rgb(44, 221, 97);
+}
+.nav-link:hover {
+  color: rgb(0, 255, 76);
+}
