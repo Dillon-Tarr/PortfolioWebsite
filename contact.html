@@ -26,6 +26,32 @@
         </div>
       </nav>
       <hr>
+      <div class="content">
+        <p>If the below form does not work for you, send me an email at dill dot tarr at gmail dot com.</p>
+        <form action="mailto:dill.tarr@gmail.com" method="get" enctype="text/plain">
+          <div class="row">
+            <label for="name">Name:
+              <input type="text" name="name" id="name" autofocus required placeholder="Your name">
+            </label>
+          </div>
+          <div class="row">
+            <label for="email">Email:  
+              <input type="text" name="email" id="email" required placeholder="Your email address">
+            </label>
+          </div>
+          <div class="row">
+            <label for="message">Your message:
+          </div>
+          <div class="row">
+            <textarea name="message" id="message" rows="12" cols="24" placeholder="Put your question for me in here!" required></textarea>
+          </label>
+          </div>
+          <div>
+            <input type="submit" name="submit" value="Send Message" class="button">
+            <input type="reset" name="reset" value="Clear" class="button">
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
